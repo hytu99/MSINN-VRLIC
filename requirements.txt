@@ -1,0 +1,6 @@
+compressai==1.2.6
+numpy==1.24.3
+Pillow==9.4.0
+pytorch_msssim==1.0.0
+torch==2.0.1
+torchvision==0.15.2
