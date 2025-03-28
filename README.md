@@ -58,7 +58,7 @@ Pre-trained models can be downloaded from [GoogleDrive](https://drive.google.com
 
 Example: Running evaluation
 ```
-python eval.py [path of evaluation dataset] --anchor_num 12 --use_act_norm --lrp --post_process -p [path of checkpoint]
+python eval.py [path of evaluation dataset] --anchor_num 8 --use_act_norm --lrp --post_process -p [path of checkpoint]
 ```
 
 ## Citation

@@ -1,4 +1,6 @@
-## Our* ($\lambda_{max} = 0.18$, better performance at low bitrates)
+## Our* 
+
+anchor_num = 8, $\lambda_{max} = 0.18$, better performance at low bitrates
 
 ### Kodak
 
@@ -19,7 +21,9 @@ PSNR: [30.73,32.30,33.83,35.38,36.89,38.38,39.80,41.11]
 
 bpp: [0.116,0.162,0.224,0.311,0.430,0.591,0.801,1.068]
 
-## Our ($\lambda_{max} = 1.8$, support wider range of bitrates)
+## Our 
+
+anchor_num=12, $\lambda_{max} = 1.8$, supporting wider range of bitrates
 
 ### Kodak
 
