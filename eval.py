@@ -300,6 +300,13 @@ def main(argv):  # noqa: C901
     }
     print(json.dumps(output, indent=2))
 
+    psnr_list = results['psnr-rgb']
+    bpp_list = results['bpp']
+    psnr_str = ','.join(f"{p:.2f}" for p in psnr_list)
+    bpp_str = ','.join(f"{p:.3f}" for p in bpp_list)
+
+    print('PSNR:', psnr_str)
+    print('bpp:', bpp_str)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
